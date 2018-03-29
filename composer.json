@@ -10,8 +10,7 @@
         }
     ],
     "require": {
-        "php": ">=7.0.0",
-        "hutong/cache": "dev"
+        "php": ">=7.0.0"
     },
     "minimum-stability": "dev",
     "autoload": {
