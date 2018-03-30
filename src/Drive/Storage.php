@@ -2,7 +2,6 @@
 namespace HuTong\Session\Drive;
 
 use HuTong\Session\Contract;
-use HuTong\Cache\Storage;
 
 class Storage implements Contract
 {
@@ -17,7 +16,7 @@ class Storage implements Contract
 
 		if(is_null($this->container))
         {
-            $this->container = new HuTong\Cache\Storage($drives);
+            $this->container = new \HuTong\Cache\Storage($drives);
         }
 	}
 
